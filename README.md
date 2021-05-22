@@ -7,7 +7,7 @@
 
 # CNN Architecture 
 
-# The model’s architecture consists of two main parts, five convolutional blocks and two fully connected neural network layer.
-# The inputs to this model are 220x220 images.
-# We are using five convolutional layers with one using 32 (3x3) filter, two using 64 (3x3) filter and the other two using 128 (3x3) filter and ReLU as an activation function followed by max pooling layer of pool and dropout.
-# The output of convolutional layer is flattened and sent to first fully connected layer of 1024 neurons followed by ReLU activation, Batch Normalization and Dropout and then to 3 neuron layer with softmax activation function which will give us our output.
+## The model’s architecture consists of two main parts, five convolutional blocks and two fully connected neural network layer.
+## The inputs to this model are 220x220 images.
+## We are using five convolutional layers with one using 32 (3x3) filter, two using 64 (3x3) filter and the other two using 128 (3x3) filter and ReLU as an activation function followed by max pooling layer of pool and dropout.
+## The output of convolutional layer is flattened and sent to first fully connected layer of 1024 neurons followed by ReLU activation, Batch Normalization and Dropout and then to 3 neuron layer with softmax activation function which will give us our output.
